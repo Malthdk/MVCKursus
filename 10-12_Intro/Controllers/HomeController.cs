@@ -17,7 +17,7 @@ namespace _10_12_Intro.Controllers
         public ActionResult Index2()
         {
 
-            string navn = "Malte";
+            string navn = "MalteLH";
 
             return Json(navn, JsonRequestBehavior.AllowGet);
         }

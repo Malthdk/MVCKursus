@@ -1,0 +1,22 @@
+﻿@model ModelDemo.Models.Person
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Demo test</h1>
+        <p>Navn: @Model.Navn</p>
+        <p>Alder: @Model.Alder</p>
+        <p>I live: @Model.ErILive</p>
+        <hr />
+        @Html.DisplayForModel()
+        <hr />
+        @Html.EditorForModel()
+    </div>
+</body>
+</html>
