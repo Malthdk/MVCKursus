@@ -56,7 +56,7 @@ namespace ControllerDemo.Controllers
         public ActionResult Test12(Person p)
         {
             if (ModelState.IsValid)
-                Console.WriteLine("Its not valid! :(");
+                Console.WriteLine("Its valid! :)");
             else
                 Console.WriteLine("Its not valid! :(");
             return View();
