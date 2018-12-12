@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterDemo", "FilterDemo\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialDemo", "PartialDemo\PartialDemo.csproj", "{C4D64D7C-F082-40E4-8709-A535E1605B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDemo", "RouteDemo\RouteDemo.csproj", "{40E13FA5-F6A1-4FF9-97C5-8594A302499C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C4D64D7C-F082-40E4-8709-A535E1605B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D64D7C-F082-40E4-8709-A535E1605B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D64D7C-F082-40E4-8709-A535E1605B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E13FA5-F6A1-4FF9-97C5-8594A302499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E13FA5-F6A1-4FF9-97C5-8594A302499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E13FA5-F6A1-4FF9-97C5-8594A302499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E13FA5-F6A1-4FF9-97C5-8594A302499C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
