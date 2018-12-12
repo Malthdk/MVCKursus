@@ -1,0 +1,38 @@
+﻿@model List<string>
+@{ 
+    string dato = DateTime.Now.ToLongDateString();
+    string cl = "background-color: red;";
+    string cl2 = "color: blue;";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h3 style="@cl">Datoen er @dato</h3>
+        @for (int i = 0; i < 5; i++)
+        {
+            <h5 style="@(i % 2 == 0 ? @cl2 : @cl)">Test @(i + 1)</h5>
+        }
+
+        @{
+            int t = 0;
+        }
+        <ol>
+            @foreach (var item in Model)
+            {
+                if (++t % 2 == 00) { 
+                    <li style="color:blue">@item</li> 
+                } else { 
+                    <li style="color:red">@item</li> 
+                }
+            }
+        </ol>
+    </div>
+</body>
+</html>
