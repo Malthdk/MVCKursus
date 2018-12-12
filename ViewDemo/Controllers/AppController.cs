@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ViewDemo.Models;
 
 namespace ViewDemo.Controllers
 {
@@ -18,6 +19,14 @@ namespace ViewDemo.Controllers
                 tmp.Add(Guid.NewGuid().ToString());
             }
             return View(tmp);
+        }
+
+        [HttpGet]
+        [Route("~/Test")]
+        public ActionResult Test()
+        {
+            Person p = new Person() { Alder = 28, ErILive = true, Navn = "Malte"};
+            return View(p);
         }
     }
 }

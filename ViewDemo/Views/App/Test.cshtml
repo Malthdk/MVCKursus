@@ -1,0 +1,27 @@
+﻿@model ViewDemo.Models.Person
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+</head>
+<body>
+    <div>
+        Navn: @Model.Navn
+        <hr />
+        @Html.DisplayNameFor(m => m.Navn) = @Html.DisplayFor(m => m.Navn)
+        <hr />
+        @Html.DisplayForModel()
+        <hr />
+        @Html.LabelFor(m => m.Navn): @Html.EditorFor(m => m.Navn)
+        <hr />
+        @Html.LabelFor(m => m.Alder): @Html.EditorFor(m => m.Alder)
+        <hr />
+        @Html.LabelFor(m => m.ErILive): @Html.EditorFor(m => m.ErILive)
+        <hr />
+        @Html.EditorForModel()
+    </div>
+</body>
+</html>
